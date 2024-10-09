@@ -26,6 +26,7 @@ import com.example.primeiraaplicacao.roomDB.Pessoa
 import com.example.primeiraaplicacao.ui.theme.PrimeiraAplicacaoTheme
 import com.example.primeiraaplicacao.viewModel.Repository
 import com.example.primeiraaplicacao.viewModel.ViewModelPessoa
+import android.annotation.SuppressLint as SuppressLint1
 
 class MainActivity : ComponentActivity() {
 
@@ -47,6 +48,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    @SuppressLint1("UnusedMaterial3ScaffoldPaddingParameter")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
